@@ -29,5 +29,5 @@ while (1 === 1) {
   trials += 1;
   const trialValue = computeMinCut(exampleAdjList);
   minCut = Math.min(minCut, trialValue);
-  console.log(`Trial #: ${trials}\tValue: ${trialValue}\tMin: ${minCut}`);
+  console.log(`Trial #: ${trials}\tCuts: ${trialValue}\tMin Cuts: ${minCut}`);
 }
